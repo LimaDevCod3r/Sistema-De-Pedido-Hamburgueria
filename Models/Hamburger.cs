@@ -2,6 +2,7 @@ namespace SistemaDePedidoHamburgueria.Models
 {
     /// <summary>
     /// Representa um hambúrguer no sistema de pedidos
+    /// Cada hambúrguer pertence a uma categoria específica (relacionamento N:1)
     /// </summary>
     public class Hamburger
     {
@@ -40,5 +41,17 @@ namespace SistemaDePedidoHamburgueria.Models
         /// Data e hora da última atualização do registro (null se nunca foi atualizado)
         /// </summary>
         public DateTime? UpdatedAt { get; set; }
+
+        /// <summary>
+        /// Chave estrangeira que referencia a categoria à qual o hambúrguer pertence
+        /// Relacionamento N:1: Múltiplos hambúrgueres podem pertencer à mesma categoria
+        /// </summary>
+        public int CategoryId { get; set; }
+
+        /// <summary>
+        /// Propriedade de navegação para a categoria do hambúrguer
+        /// Permite acessar os dados da categoria relacionada
+        /// </summary>
+        public Category? Category { get; set; }
     }
 }

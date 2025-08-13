@@ -1,10 +1,19 @@
+using System.Collections.ObjectModel;
+
+
 namespace SistemaDePedidoHamburgueria.Models
 {
     /// <summary>
     /// Representa uma categoria de produtos no sistema
+    /// Uma categoria pode conter múltiplos hambúrgueres (relacionamento 1:N)
     /// </summary>
     public class Category
     {
+
+        public Category()
+        {
+            Hamburgers = new Collection<Hamburger>();
+        }
         /// <summary>
         /// Identificador único da categoria
         /// </summary>
@@ -29,5 +38,12 @@ namespace SistemaDePedidoHamburgueria.Models
         /// Data e hora da última atualização da categoria (null se nunca foi atualizada)
         /// </summary>
         public DateTime? UpdatedAt { get; set; }
+
+        /// <summary>
+        /// Coleção de hambúrgueres pertencentes a esta categoria
+        /// Relacionamento 1:N: Uma categoria pode ter múltiplos hambúrgueres
+        /// </summary>
+        public ICollection<Hamburger>? Hamburgers { get; set; }
+
     }
 }

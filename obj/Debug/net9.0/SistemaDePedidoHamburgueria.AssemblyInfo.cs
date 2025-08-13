@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaDePedidoHamburgueria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f0298c4976b2de853bb710532811d7a7e1037f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+532f54953ffd81bad782ed02fb578df7aa16c1ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaDePedidoHamburgueria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaDePedidoHamburgueria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
