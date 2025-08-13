@@ -1,8 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+using SistemaDePedidoHamburgueria.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+// Obtém a string de conexão do banco de dados MySQL do arquivo de configuração
+var databaseSQLConnection = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Configura o Entity Framework Core com MySQL
+// Usa o Pomelo.EntityFrameworkCore.MySql para conectar ao MySQL
+// ServerVersion.AutoDetect detecta automaticamente a versão do servidor MySQL
+builder.Services.AddDbContext<HamburgueriaApiDBContext>(options =>
+    options.UseMySql(databaseSQLConnection, ServerVersion.AutoDetect(databaseSQLConnection))
+);
 
 var app = builder.Build();
 
