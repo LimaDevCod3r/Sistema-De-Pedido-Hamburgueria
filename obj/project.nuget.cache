@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZLCKuukwdNU=",
+  "dgSpecHash": "9W0yGU6W/IY=",
   "success": true,
-  "projectFilePath": "D:\\www\\C#\\SistemaDePedidoHamburgueria\\SistemaDePedidoHamburgueria.csproj",
+  "projectFilePath": "D:\\www\\Csharp\\SistemaDePedidoHamburgueria\\SistemaDePedidoHamburgueria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",

@@ -3267,11 +3267,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\www\\C#\\SistemaDePedidoHamburgueria\\SistemaDePedidoHamburgueria.csproj",
+      "projectUniqueName": "D:\\www\\Csharp\\SistemaDePedidoHamburgueria\\SistemaDePedidoHamburgueria.csproj",
       "projectName": "SistemaDePedidoHamburgueria",
-      "projectPath": "D:\\www\\C#\\SistemaDePedidoHamburgueria\\SistemaDePedidoHamburgueria.csproj",
+      "projectPath": "D:\\www\\Csharp\\SistemaDePedidoHamburgueria\\SistemaDePedidoHamburgueria.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "D:\\www\\C#\\SistemaDePedidoHamburgueria\\obj\\",
+      "outputPath": "D:\\www\\Csharp\\SistemaDePedidoHamburgueria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
